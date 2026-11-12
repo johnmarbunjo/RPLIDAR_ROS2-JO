@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000722] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.000761] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000780] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.009438] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.012865] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.013236] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '/home/kojohn/rplidar_level2_ws/src/rf2o_laser_odometry', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry'], 'cwd': '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kojohn', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kojohn', 'OLDPWD': '/home/kojohn/rplidar_level2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2351', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kojohn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kojohn', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:@/tmp/.ICE-unix/2312,unix/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:/tmp/.ICE-unix/2312', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1a44e5f7_4143_4b04_a7b2_d988350f30b0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RO0GY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.016380] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.017963] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.018441] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kojohn/rplidar_level2_ws/build/sllidar_ros2', '--', '-j16', '-l16'], 'cwd': '/home/kojohn/rplidar_level2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kojohn', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kojohn', 'OLDPWD': '/home/kojohn/rplidar_level2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2351', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kojohn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kojohn', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:@/tmp/.ICE-unix/2312,unix/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:/tmp/.ICE-unix/2312', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1a44e5f7_4143_4b04_a7b2_d988350f30b0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RO0GY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kojohn/rplidar_level2_ws/build/sllidar_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099858] (-) TimerEvent: {}
+[0.200217] (-) TimerEvent: {}
+[0.287162] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.288854] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[0.299219] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.300273] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.300363] (-) TimerEvent: {}
+[0.316454] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kojohn/rplidar_level2_ws/build/sllidar_ros2'], 'cwd': '/home/kojohn/rplidar_level2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kojohn', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kojohn', 'OLDPWD': '/home/kojohn/rplidar_level2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2351', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kojohn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kojohn', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:@/tmp/.ICE-unix/2312,unix/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:/tmp/.ICE-unix/2312', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1a44e5f7_4143_4b04_a7b2_d988350f30b0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RO0GY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kojohn/rplidar_level2_ws/build/sllidar_ros2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.325713] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.326836] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.327344] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.327450] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[0.327545] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.327644] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.327750] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.327846] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.327938] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.328029] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.328121] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.328213] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.328302] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.328401] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.328480] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.328572] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.328664] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.328754] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.328845] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.328934] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.329024] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.329115] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.329204] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.329295] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.329397] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.329490] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.329692] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.330195] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.330811] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.330969] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.331544] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.331689] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.331820] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.331953] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.332081] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.332205] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.332331] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.332461] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.332582] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.332670] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.342237] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.342393] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.342514] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.342650] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.342757] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.342872] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/kojohn/rplidar_level2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.344483] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.370825] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[0.387578] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.400449] (-) TimerEvent: {}
+[0.500735] (-) TimerEvent: {}
+[0.567733] (rf2o_laser_odometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.593690] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.600818] (-) TimerEvent: {}
+[0.701076] (-) TimerEvent: {}
+[0.728984] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.736610] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.737016] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.737595] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.747171] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801173] (-) TimerEvent: {}
+[0.843476] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.851418] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.851677] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.852078] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.861737] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.901257] (-) TimerEvent: {}
+[0.991433] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001347] (-) TimerEvent: {}
+[1.064359] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.101466] (-) TimerEvent: {}
+[1.110819] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.161226] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.175476] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.194181] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201570] (-) TimerEvent: {}
+[1.215691] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301691] (-) TimerEvent: {}
+[1.304605] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.308020] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401827] (-) TimerEvent: {}
+[1.404371] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.422796] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.444601] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.501933] (-) TimerEvent: {}
+[1.537247] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.554400] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.573576] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.21 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[1.594123] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[1.598567] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.598725] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.602008] (-) TimerEvent: {}
+[1.702240] (-) TimerEvent: {}
+[1.802518] (-) TimerEvent: {}
+[1.803886] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.837174] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.903043] (-) TimerEvent: {}
+[1.922618] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  \n'}
+[2.003136] (-) TimerEvent: {}
+[2.012573] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[2.031440] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.038022] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry\n'}
+[2.048710] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[2.049211] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[2.049419] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry', '--', '-j16', '-l16'], 'cwd': '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kojohn', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kojohn', 'OLDPWD': '/home/kojohn/rplidar_level2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2351', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kojohn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kojohn', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:@/tmp/.ICE-unix/2312,unix/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:/tmp/.ICE-unix/2312', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1a44e5f7_4143_4b04_a7b2_d988350f30b0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RO0GY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.100241] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.100467] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[2.100565] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[2.103206] (-) TimerEvent: {}
+[2.203386] (-) TimerEvent: {}
+[2.303689] (-) TimerEvent: {}
+[2.403965] (-) TimerEvent: {}
+[2.504284] (-) TimerEvent: {}
+[2.604625] (-) TimerEvent: {}
+[2.704973] (-) TimerEvent: {}
+[2.805391] (-) TimerEvent: {}
+[2.905656] (-) TimerEvent: {}
+[3.005955] (-) TimerEvent: {}
+[3.106314] (-) TimerEvent: {}
+[3.206718] (-) TimerEvent: {}
+[3.307106] (-) TimerEvent: {}
+[3.407488] (-) TimerEvent: {}
+[3.507853] (-) TimerEvent: {}
+[3.608221] (-) TimerEvent: {}
+[3.708610] (-) TimerEvent: {}
+[3.809005] (-) TimerEvent: {}
+[3.909388] (-) TimerEvent: {}
+[4.009755] (-) TimerEvent: {}
+[4.110132] (-) TimerEvent: {}
+[4.210485] (-) TimerEvent: {}
+[4.310937] (-) TimerEvent: {}
+[4.411243] (-) TimerEvent: {}
+[4.511579] (-) TimerEvent: {}
+[4.611894] (-) TimerEvent: {}
+[4.712212] (-) TimerEvent: {}
+[4.812524] (-) TimerEvent: {}
+[4.912868] (-) TimerEvent: {}
+[5.013218] (-) TimerEvent: {}
+[5.113552] (-) TimerEvent: {}
+[5.213878] (-) TimerEvent: {}
+[5.314188] (-) TimerEvent: {}
+[5.414498] (-) TimerEvent: {}
+[5.514826] (-) TimerEvent: {}
+[5.615140] (-) TimerEvent: {}
+[5.715411] (-) TimerEvent: {}
+[5.815716] (-) TimerEvent: {}
+[5.916035] (-) TimerEvent: {}
+[6.016366] (-) TimerEvent: {}
+[6.116656] (-) TimerEvent: {}
+[6.216968] (-) TimerEvent: {}
+[6.317291] (-) TimerEvent: {}
+[6.417618] (-) TimerEvent: {}
+[6.517967] (-) TimerEvent: {}
+[6.618316] (-) TimerEvent: {}
+[6.718666] (-) TimerEvent: {}
+[6.818980] (-) TimerEvent: {}
+[6.919288] (-) TimerEvent: {}
+[7.019664] (-) TimerEvent: {}
+[7.119964] (-) TimerEvent: {}
+[7.220296] (-) TimerEvent: {}
+[7.320726] (-) TimerEvent: {}
+[7.421085] (-) TimerEvent: {}
+[7.521453] (-) TimerEvent: {}
+[7.621783] (-) TimerEvent: {}
+[7.722154] (-) TimerEvent: {}
+[7.822523] (-) TimerEvent: {}
+[7.922947] (-) TimerEvent: {}
+[8.023307] (-) TimerEvent: {}
+[8.123675] (-) TimerEvent: {}
+[8.223979] (-) TimerEvent: {}
+[8.324288] (-) TimerEvent: {}
+[8.424617] (-) TimerEvent: {}
+[8.524949] (-) TimerEvent: {}
+[8.625365] (-) TimerEvent: {}
+[8.725796] (-) TimerEvent: {}
+[8.826095] (-) TimerEvent: {}
+[8.926402] (-) TimerEvent: {}
+[9.026722] (-) TimerEvent: {}
+[9.127033] (-) TimerEvent: {}
+[9.227365] (-) TimerEvent: {}
+[9.327669] (-) TimerEvent: {}
+[9.427987] (-) TimerEvent: {}
+[9.528337] (-) TimerEvent: {}
+[9.628654] (-) TimerEvent: {}
+[9.728966] (-) TimerEvent: {}
+[9.829292] (-) TimerEvent: {}
+[9.929621] (-) TimerEvent: {}
+[10.029943] (-) TimerEvent: {}
+[10.130248] (-) TimerEvent: {}
+[10.230587] (-) TimerEvent: {}
+[10.330887] (-) TimerEvent: {}
+[10.431207] (-) TimerEvent: {}
+[10.531529] (-) TimerEvent: {}
+[10.631820] (-) TimerEvent: {}
+[10.732141] (-) TimerEvent: {}
+[10.832420] (-) TimerEvent: {}
+[10.932766] (-) TimerEvent: {}
+[11.033107] (-) TimerEvent: {}
+[11.133405] (-) TimerEvent: {}
+[11.233687] (-) TimerEvent: {}
+[11.333988] (-) TimerEvent: {}
+[11.434307] (-) TimerEvent: {}
+[11.534626] (-) TimerEvent: {}
+[11.635047] (-) TimerEvent: {}
+[11.735523] (-) TimerEvent: {}
+[11.835806] (-) TimerEvent: {}
+[11.936093] (-) TimerEvent: {}
+[12.036393] (-) TimerEvent: {}
+[12.136682] (-) TimerEvent: {}
+[12.236979] (-) TimerEvent: {}
+[12.337267] (-) TimerEvent: {}
+[12.437576] (-) TimerEvent: {}
+[12.537864] (-) TimerEvent: {}
+[12.638153] (-) TimerEvent: {}
+[12.738454] (-) TimerEvent: {}
+[12.838753] (-) TimerEvent: {}
+[12.939054] (-) TimerEvent: {}
+[13.039362] (-) TimerEvent: {}
+[13.139644] (-) TimerEvent: {}
+[13.239943] (-) TimerEvent: {}
+[13.340246] (-) TimerEvent: {}
+[13.440567] (-) TimerEvent: {}
+[13.540870] (-) TimerEvent: {}
+[13.641181] (-) TimerEvent: {}
+[13.741534] (-) TimerEvent: {}
+[13.841871] (-) TimerEvent: {}
+[13.942267] (-) TimerEvent: {}
+[14.042650] (-) TimerEvent: {}
+[14.143028] (-) TimerEvent: {}
+[14.243375] (-) TimerEvent: {}
+[14.343755] (-) TimerEvent: {}
+[14.444526] (-) TimerEvent: {}
+[14.544858] (-) TimerEvent: {}
+[14.645196] (-) TimerEvent: {}
+[14.745525] (-) TimerEvent: {}
+[14.845819] (-) TimerEvent: {}
+[14.946110] (-) TimerEvent: {}
+[15.046394] (-) TimerEvent: {}
+[15.146690] (-) TimerEvent: {}
+[15.246979] (-) TimerEvent: {}
+[15.347287] (-) TimerEvent: {}
+[15.447589] (-) TimerEvent: {}
+[15.547884] (-) TimerEvent: {}
+[15.648188] (-) TimerEvent: {}
+[15.748496] (-) TimerEvent: {}
+[15.848788] (-) TimerEvent: {}
+[15.949093] (-) TimerEvent: {}
+[16.049415] (-) TimerEvent: {}
+[16.149757] (-) TimerEvent: {}
+[16.250026] (-) TimerEvent: {}
+[16.350288] (-) TimerEvent: {}
+[16.450559] (-) TimerEvent: {}
+[16.550804] (-) TimerEvent: {}
+[16.651056] (-) TimerEvent: {}
+[16.751318] (-) TimerEvent: {}
+[16.851602] (-) TimerEvent: {}
+[16.951893] (-) TimerEvent: {}
+[17.052160] (-) TimerEvent: {}
+[17.152478] (-) TimerEvent: {}
+[17.252761] (-) TimerEvent: {}
+[17.353042] (-) TimerEvent: {}
+[17.453339] (-) TimerEvent: {}
+[17.553664] (-) TimerEvent: {}
+[17.654033] (-) TimerEvent: {}
+[17.754339] (-) TimerEvent: {}
+[17.854641] (-) TimerEvent: {}
+[17.954923] (-) TimerEvent: {}
+[18.055208] (-) TimerEvent: {}
+[18.155503] (-) TimerEvent: {}
+[18.255788] (-) TimerEvent: {}
+[18.356059] (-) TimerEvent: {}
+[18.456321] (-) TimerEvent: {}
+[18.556604] (-) TimerEvent: {}
+[18.656873] (-) TimerEvent: {}
+[18.757178] (-) TimerEvent: {}
+[18.857900] (-) TimerEvent: {}
+[18.958238] (-) TimerEvent: {}
+[19.058551] (-) TimerEvent: {}
+[19.158894] (-) TimerEvent: {}
+[19.259386] (-) TimerEvent: {}
+[19.360462] (-) TimerEvent: {}
+[19.460790] (-) TimerEvent: {}
+[19.539474] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[19.539684] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[19.560905] (-) TimerEvent: {}
+[19.661269] (-) TimerEvent: {}
+[19.761705] (-) TimerEvent: {}
+[19.780468] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry\n'}
+[19.861823] (-) TimerEvent: {}
+[19.962142] (-) TimerEvent: {}
+[20.062475] (-) TimerEvent: {}
+[20.162803] (-) TimerEvent: {}
+[20.263117] (-) TimerEvent: {}
+[20.363404] (-) TimerEvent: {}
+[20.463679] (-) TimerEvent: {}
+[20.484422] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[20.494409] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[20.495008] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[20.495407] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry'], 'cwd': '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kojohn', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kojohn', 'OLDPWD': '/home/kojohn/rplidar_level2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2351', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kojohn', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kojohn', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:@/tmp/.ICE-unix/2312,unix/kojohn-HP-ProBook-445-14-inch-G9-Notebook-PC:/tmp/.ICE-unix/2312', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1a44e5f7_4143_4b04_a7b2_d988350f30b0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RO0GY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kojohn/rplidar_level2_ws/build/rf2o_laser_odometry', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/kojohn/rplidar_level2_ws/install/sllidar_ros2:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[20.503631] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.504015] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.504345] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[20.512942] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[20.520890] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[20.528693] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[20.537878] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[20.546581] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[20.554308] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[20.561830] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[20.563747] (-) TimerEvent: {}
+[20.571768] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[20.579776] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[20.587461] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[20.596314] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[20.604243] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[20.612385] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[20.620098] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[20.628687] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[20.636833] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /home/kojohn/rplidar_level2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[20.646678] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[20.656522] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[20.657276] (-) EventReactorShutdown: {}
